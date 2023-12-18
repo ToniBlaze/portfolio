@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function Footer() {
   return (
     <Container fluid>
-    <Row className="d-flex flex-wrap justify-content-around align-items-center pb-5 pt-4 border-top bg-white">
+    <Row className="d-flex flex-wrap justify-content-around align-items-center pb-5 pt-4 border-top bg-black">
       <Col md={4} className="mb-0 text-body-secondary">
         © 2023 Company, Inc
       </Col>
