@@ -31,3 +31,7 @@ html {
   );
 }
 
+#ale-photo {
+  max-width: 60%;
+  height: auto;
+}
