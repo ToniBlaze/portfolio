@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 
 import MainLayout from "../layout/MainLayout";
+import About from "../components/HomePageComponents/About";
 
 export default function Homepage() {
   return (
@@ -10,9 +11,9 @@ export default function Homepage() {
         <Row>
           {/* ELEMENTS */}
           <About />
-          <Projects />
+          {/* <Projects />
           <Skills />
-          <Contact />
+          <Contact /> */}
         </Row>
       </Container>
     </MainLayout>
