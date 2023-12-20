@@ -1,5 +1,7 @@
 import React from "react";
-import { Button, Col } from "react-bootstrap";
+import { Button, Col, Image } from "react-bootstrap";
+
+import AleImg from "../../assets/alessio.png"
 
 export default function About() {
   return (
@@ -25,7 +27,7 @@ export default function About() {
         </div>
       </div>
       <div className="col-4 mt-4">
-        <img className="w-100 rounded" alt="hero" src="../../asset/coding.svg" />
+        <Image className="w-100 rounded" alt="hero" src={AleImg} />
       </div>
     </Col>
   );
