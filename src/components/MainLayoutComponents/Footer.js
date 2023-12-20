@@ -6,7 +6,8 @@ export default function Footer() {
     <Container fluid>
     <Row className="d-flex flex-wrap justify-content-around align-items-center pb-5 pt-4 border-top bg-black text-secondary">
       <Col md={4} className="mb-0 text-secondary">
-        © 2023 Company, Inc
+        Hey! 
+        Let's stay in touch.
       </Col>
 
       <Col md={4} className="d-flex justify-content-center">
@@ -19,6 +20,11 @@ export default function Footer() {
           <li className="nav-item">
             <a href="#" className="nav-link px-2 text-secondary">
               Project
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link px-2 text-secondary">
+              Skills
             </a>
           </li>
           <li className="nav-item">
