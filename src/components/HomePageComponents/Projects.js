@@ -11,7 +11,7 @@ export default function Projects() {
       </Col>
       <Col className="d-flex align-items-center justify-content-center pt-3 px-md-5">
         <Col xs={12} sm={9} md={8} lg={5} xxl={4} className="m-4">
-          <Card className="tridens-bg text-white p-5 d-flex justify-content-center rounded-4">
+          <Card className="tridens-bg text-dark p-5 d-flex justify-content-center rounded-4">
             <Card.Title className="fs-3">PROJECT 1</Card.Title>
             <Card.Text>
               lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum
@@ -19,7 +19,7 @@ export default function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={9} md={8} lg={5} xxl={4} className="m-4">
-          <Card className="fidelis-bg text-white p-5 d-flex justify-content-center rounded-4">
+          <Card className="fidelis-bg text-dark p-5 d-flex justify-content-center rounded-4">
             <Card.Title className="fs-3">PROJECT 2</Card.Title>
             <Card.Text>
               lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
