@@ -24,7 +24,7 @@ export default function About() {
         </div>
       </div>
       <div className="col-4 mt-4 overflow-hidden rounded-5 rounded-top-0">
-        <Image id="ale-photo"  alt="hero" src={AleImg} />
+        <Image id="ale-photo"  alt="hero" src={AleImg} /> 
       </div>
     </Col>
   );
