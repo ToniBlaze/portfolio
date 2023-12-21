@@ -14,7 +14,7 @@ export default function Homepage() {
           {/* ELEMENTS */}
           <About />
           <Projects />
-          <Skills />
+          <Skills /> 
           {/* <Contact />  */}
         </Row>
       </Container>

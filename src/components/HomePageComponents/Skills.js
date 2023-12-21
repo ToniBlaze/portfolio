@@ -10,6 +10,6 @@ export default function Skills() {
         </Col>
       </Col>
       
-    </Col>
+    </Col> 
   );
 }
