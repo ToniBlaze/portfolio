@@ -13,8 +13,8 @@ export default function Homepage() {
           {/* ELEMENTS */}
           <About />
           <Projects />
-          {/*<Skills />
-          <Contact /> */}
+          <Skills />
+          {/* <Contact />  */}
         </Row>
       </Container>
     </MainLayout>
