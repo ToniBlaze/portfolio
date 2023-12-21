@@ -23,8 +23,8 @@ export default function About() {
           </Button>
         </div>
       </div>
-      <div className="col-4 mt-4 overflow-hidden rounded-5 rounded-top-0">
-        <Image id="ale-photo"  alt="hero" src={AleImg} /> 
+      <div className="col-4 mt-4 rounded-5 h-75 rounded-top-0 overflow-hidden">
+        <Image id="ale-photo"  alt="hero" src={AleImg} className="img-fluid object-fit-contain" fluid roundedCircle/> 
       </div>
     </Col>
   );
