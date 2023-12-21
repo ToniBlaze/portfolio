@@ -31,6 +31,12 @@ html {
   );
 }
 
+/* HOME  */
+
+#about {
+  height: 90vh;
+}
+
 #ale-photo {
   max-width: 60%;
   height: auto;
