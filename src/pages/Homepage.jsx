@@ -3,6 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 import MainLayout from "../layout/MainLayout";
 import About from "../components/HomePageComponents/About";
+import Projects from "../components/HomePageComponents/Projects";
 
 export default function Homepage() {
   return (
@@ -11,8 +12,8 @@ export default function Homepage() {
         <Row>
           {/* ELEMENTS */}
           <About />
-          {/* <Projects />
-          <Skills />
+          <Projects />
+          {/*<Skills />
           <Contact /> */}
         </Row>
       </Container>
