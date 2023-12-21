@@ -8,6 +8,9 @@ export default function Skills() {
         <Col xs={10} md={8}>
           <h2 className="pb-2 border-bottom"> Skills </h2>
         </Col>
+{/* 
+        Fare sezione con PROGRESS BAR che dimostrano le tue skills 
+        Oppure fare semplicemente linguaggi e tools o framework che utilizzi */}
       </Col>
       
     </Col> 
