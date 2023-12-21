@@ -4,6 +4,7 @@ import { Container, Row } from "react-bootstrap";
 import MainLayout from "../layout/MainLayout";
 import About from "../components/HomePageComponents/About";
 import Projects from "../components/HomePageComponents/Projects";
+import Skills from "../components/HomePageComponents/Skills";
 
 export default function Homepage() {
   return (
