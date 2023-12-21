@@ -30,6 +30,9 @@ export default function MyNav() {
             <Nav.Link className="nav-link" href="#project" active={false}>
               Project
             </Nav.Link>
+            <Nav.Link className="nav-link" href="#skills" active={false}>
+              Skills
+            </Nav.Link>
             <Nav.Link className="nav-link" href="#contact" active={false}>
               Contatti
             </Nav.Link>
