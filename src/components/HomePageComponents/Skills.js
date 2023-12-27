@@ -11,20 +11,20 @@ export default function Skills() {
           <h2 className="pb-2 border-bottom"> Skills </h2>
         </Col>
       </Col>
-      <Col className="d-flex justify-content-center text-center col-12">
-        <Col  >
-          <i class="fa-brands fa-react"></i>
+      <Col className="d-flex justify-content-center  flex-wrap text-center col-12">
+        <Col xs={6} md={4} lg={3} className="icon-font">
+          <i class="fa-brands fa-react"  ></i>
         </Col>
 
-        <Col>
+        <Col xs={6} md={4} lg={3} className="icon-font">
           <i class="fa-brands fa-js"></i>
         </Col>
 
-        <Col>
+        <Col xs={6} md={4} lg={3} className="icon-font">
           <i class="fa-brands fa-node"></i>
         </Col>
 
-        <Col>
+        <Col xs={6} md={4} lg={3} className="icon-font">
           <i class="fa-brands fa-bootstrap"></i>
         </Col>
 
