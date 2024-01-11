@@ -5,6 +5,7 @@ import MainLayout from "../layout/MainLayout";
 import About from "../components/HomePageComponents/About";
 import Projects from "../components/HomePageComponents/Projects";
 import Skills from "../components/HomePageComponents/Skills";
+import Contact from "../components/HomePageComponents/Contact";
 
 export default function Homepage() {
   return (
@@ -15,7 +16,7 @@ export default function Homepage() {
           <About />
           <Projects />
           <Skills /> 
-          {/* <Contact />  */}
+          <Contact />
         </Row>
       </Container>
     </MainLayout>
