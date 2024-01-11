@@ -37,9 +37,41 @@ html {
   height: 90vh;
 }
 
-
 /* ICON SKILLS  */
 
 .icon-font {
   font-size: 5rem;
 }
+
+#express-logo {
+  width: 28%;
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    width: 35%;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 991px) {
+    width: 40%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 45%;
+  }
+}
+
+#mongo-logo {
+  width: 50%;
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    width: 60%;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 991px) {
+    width: 65%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 70%;
+  }
+}
+
