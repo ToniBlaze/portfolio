@@ -1,5 +1,6 @@
 import React from "react";
 import { Col } from "react-bootstrap";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
@@ -9,9 +10,9 @@ export default function Contact() {
           <h2 className="pb-2 border-bottom"> Contact </h2>
         </Col>
       </Col>
+
       <Col className="d-flex align-items-center justify-content-center pt-3 px-md-5">
-
-
+        <ContactForm />
       </Col>
     </Col>
   );
